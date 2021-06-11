@@ -4,7 +4,7 @@ from typing import Optional
 import hmac, hashlib, base64
 
 
-app = FastAPI() # FastAPI-сервер
+app = FastAPI()
 
 SECRET_KEY = "f9291e8f70f5a48a2a1c1e45879bf8f1f80291baf22c2377233b05d806ace0ee"
 PASSWORD_SALT = "37eb749bb93980399720b899a4a591996cab305f7be607cf55a4472297024911"
