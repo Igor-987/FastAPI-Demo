@@ -1,5 +1,4 @@
 # Аутентификация на FastAPI
-
 from fastapi import FastAPI, Form, Cookie
 from fastapi.responses import Response
 from typing import Optional
